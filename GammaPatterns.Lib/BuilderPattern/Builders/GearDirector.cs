@@ -1,9 +1,10 @@
+using GammaPatterns.Lib.BuilderPattern.Builders.Interfaces;
 using GammaPatterns.Lib.Enums;
 using GammaPatterns.Lib.Models;
 
 namespace GammaPatterns.Lib.BuilderPattern.Builders;
 
-public class GearDirector(IEquipmentBuilder equipmentBuilder)
+public class GearDirector(IEquipmentBuilder equipmentBuilder) : IGearDirector
 {
     public List<Equipment> GetGear(Rarity rarity) 
     {

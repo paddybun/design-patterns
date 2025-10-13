@@ -1,3 +1,4 @@
+using GammaPatterns.Lib.BuilderPattern.Builders.Interfaces;
 using GammaPatterns.Lib.Enums;
 using GammaPatterns.Lib.Models;
 

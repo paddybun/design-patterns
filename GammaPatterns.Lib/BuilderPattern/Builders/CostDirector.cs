@@ -1,8 +1,9 @@
+using GammaPatterns.Lib.BuilderPattern.Builders.Interfaces;
 using GammaPatterns.Lib.Enums;
 
 namespace GammaPatterns.Lib.BuilderPattern.Builders;
 
-public class CostDirector(IEquipmentBuilder equipmentBuilder)
+public class CostDirector(IEquipmentBuilder equipmentBuilder) : ICostDirector
 {
     public int GetTotalCost(Rarity rarity)
     {
