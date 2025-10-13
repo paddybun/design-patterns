@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="GammaPatterns.Lib\GammaPatterns.Lib.csproj" Type="Classic C#" />
+  <Project Path="GammaPatterns\GammaPatterns.csproj" Type="Classic C#" />
+</Solution>
