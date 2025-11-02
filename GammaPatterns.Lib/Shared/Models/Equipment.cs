@@ -1,6 +1,6 @@
-using GammaPatterns.Lib.Enums;
+using GammaPatterns.Lib.Shared.Enums;
 
-namespace GammaPatterns.Lib.Models;
+namespace GammaPatterns.Lib.Shared.Models;
 
 public abstract class Equipment
 {
@@ -8,6 +8,7 @@ public abstract class Equipment
     public Rarity Rarity { get; init; }
     
     public int BasePrice { get; init; }
+    public int Affixes { get; init; }
     public required string Name { get; init; }
 
     public abstract int CalculatePrice();

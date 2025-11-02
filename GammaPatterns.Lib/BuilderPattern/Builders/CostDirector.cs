@@ -1,5 +1,5 @@
 using GammaPatterns.Lib.BuilderPattern.Builders.Interfaces;
-using GammaPatterns.Lib.Enums;
+using GammaPatterns.Lib.Shared.Enums;
 
 namespace GammaPatterns.Lib.BuilderPattern.Builders;
 

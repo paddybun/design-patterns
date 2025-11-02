@@ -1,4 +1,4 @@
-namespace GammaPatterns.Lib.Enums;
+namespace GammaPatterns.Lib.Shared.Enums;
 
 public enum Rarity
 {

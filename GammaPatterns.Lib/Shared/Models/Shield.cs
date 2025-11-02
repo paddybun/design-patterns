@@ -1,6 +1,6 @@
-using GammaPatterns.Lib.Enums;
+using GammaPatterns.Lib.Shared.Enums;
 
-namespace GammaPatterns.Lib.Models;
+namespace GammaPatterns.Lib.Shared.Models;
 
 public class Shield: Equipment
 {

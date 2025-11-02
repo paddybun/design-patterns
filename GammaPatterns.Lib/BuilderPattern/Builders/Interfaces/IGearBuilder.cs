@@ -1,4 +1,4 @@
-using GammaPatterns.Lib.Models;
+using GammaPatterns.Lib.Shared.Models;
 
 namespace GammaPatterns.Lib.BuilderPattern.Builders.Interfaces;
 
